@@ -1,0 +1,53 @@
+baseURL: https://erickvelez.com
+languageCode: en-us
+title: Erick Velez
+theme: ["PaperMod"]
+paginate: 1
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+    menu:
+      main:
+        - name: Blog
+          url: posts
+          weight: 1
+
+params:
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+  mainSections:
+    - blog
+  profileMode:
+    enabled: true
+    title: "Hi! I'm Erick" # optional default will be site title
+    subtitle: >
+      100% cracked\
+
+      That actually isn't what I really look like anymore.
+    imageUrl: "images/portrait.jpg" # optional
+    imageTitle: "<title of image as alt>" # optional
+    imageWidth: 240 # custom size
+    imageHeight: 240 # custom size
+    buttons:
+      - name: Blog
+        url: posts
+      - name: About
+        url: "/about"
+
+  socialIcons: # optional
+    - name: "Github"
+      url: "https://github.com/evelez7"
+    - name: "Linkedin"
+      url: "https://www.linkedin.com/in/evelez7/"
+    - name: "Monkeytype"
+      url: "https://monkeytype.com/profile/erickvelez"
