@@ -2,6 +2,7 @@
 title: "Google Summer of Code 2023"
 description: "My experience hacking on clang in 2023"
 tags: ["google summer of code"]
+draft: true
 ---
 
 During the summer of 2023 I had the opportunity to work on clang for Google Summer of Code.
