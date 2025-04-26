@@ -2,7 +2,8 @@ baseURL: https://erickvelez.com
 languageCode: en-us
 title: Erick Velez
 theme: ["PaperMod"]
-paginate: 1
+pagination:
+  pagerSize: 1
 
 languages:
   en:
@@ -29,9 +30,9 @@ params:
     - blog
   profileMode:
     enabled: true
-    title: "Hi! I'm Erick" # optional default will be site title
+    title: "Hi! I'm Erick." # optional default will be site title
     subtitle: >
-      100% cracked\
+      100% cracked.\
 
       That actually isn't what I really look like anymore.
     imageUrl: "images/portrait.jpg" # optional
@@ -51,3 +52,5 @@ params:
       url: "https://www.linkedin.com/in/evelez7/"
     - name: "Monkeytype"
       url: "https://monkeytype.com/profile/erickvelez"
+    - name: "lastfm"
+      url: "https://www.last.fm/user/e_velez"
