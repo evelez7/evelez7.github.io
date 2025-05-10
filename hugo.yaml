@@ -54,3 +54,5 @@ params:
       url: "https://monkeytype.com/profile/erickvelez"
     - name: "lastfm"
       url: "https://www.last.fm/user/e_velez"
+    - name: "email"
+      url: "mailto:hello@erickvelez.com"
