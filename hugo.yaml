@@ -18,18 +18,29 @@ languages:
         - name: Blog
           url: posts
           weight: 1
-
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
 params:
   ShowAllPagesInArchive: true
   ShowPageNums: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowToc: true
   cover:
     hidden: true # hide everywhere but not in structured data
     hiddenInList: true # hide on list pages and home
     hiddenInSingle: true # hide on single page
   mainSections:
-    - blog
+    - posts
+  homeInfoParams:
+    Title: Hi! I'm Erick
+    Content: I'm a software engineer interested in compilers and programming languages.
   profileMode:
-    enabled: true
+    enabled: false
     title: "Hi! I'm Erick." # optional default will be site title
     subtitle: >
       100% cracked.\
@@ -39,20 +50,17 @@ params:
     imageTitle: "<title of image as alt>" # optional
     imageWidth: 240 # custom size
     imageHeight: 240 # custom size
-    buttons:
-      - name: Blog
-        url: posts
-      - name: About
-        url: "/about"
 
   socialIcons: # optional
     - name: "Github"
       url: "https://github.com/evelez7"
     - name: "Linkedin"
       url: "https://www.linkedin.com/in/evelez7/"
+    - name: "email"
+      url: "mailto:hello@erickvelez.com"
     - name: "Monkeytype"
       url: "https://monkeytype.com/profile/erickvelez"
     - name: "lastfm"
       url: "https://www.last.fm/user/e_velez"
-    - name: "email"
-      url: "mailto:hello@erickvelez.com"
+    - name: "flickr"
+      url: "https://www.flickr.com/photos/erickvelez/"
