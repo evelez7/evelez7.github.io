@@ -64,3 +64,5 @@ params:
       url: "https://www.last.fm/user/e_velez"
     - name: "flickr"
       url: "https://www.flickr.com/photos/erickvelez/"
+    - name: "letterboxd"
+      url: "https://letterboxd.com/erickvelez/"
