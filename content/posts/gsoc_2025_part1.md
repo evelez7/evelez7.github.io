@@ -109,9 +109,5 @@ The newly-implemented JSON backend only employed one of the previously listed be
 I decided, along with my mentors, that it would probably be best to integrate the JSON and HTML Mustache backends to have the full benefits.
 
 The integration took about a week.
-Further development without the integration might cause more divergence that would have to be resolved later.
-It also helped immediately in the next phase of the project.
-
-### Back to the Schedule
-
-Now, I was back to following what I originally proposed, which meant that I would turn to comments.
+Further development without the integration might have caused more divergence that would've had to be resolved later.
+It also helped immediately in the next phase of the project that I had planned: comments.
