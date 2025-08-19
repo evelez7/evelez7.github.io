@@ -102,7 +102,7 @@ I had suspected concepts would be the most time consuming feature to implement, 
 I landed the feature within about a week followed by global variables and friends.
 I also introduced name mangling for our documentation filenames to avoid a double
 
-## Another Change of Plans and The next 4 weeks
+## Another Change of Plans and the Next 4 weeks
 
 Implementing a new backend brought up another important decision that would affect my original timeline.
 The newly-implemented JSON backend only employed one of the previously listed benefits, which was a centralized testing format.
