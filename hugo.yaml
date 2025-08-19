@@ -2,8 +2,6 @@ baseURL: https://erickvelez.com
 languageCode: en-us
 title: Erick Velez
 theme: ["PaperMod"]
-pagination:
-  pagerSize: 1
 
 languages:
   en:
