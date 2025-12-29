@@ -1,6 +1,7 @@
 ---
 title: "Are clang-doc and ExtractAPI Compatible?"
 description: "Thinking about where ExtractAPI could help in clang-doc."
+date: 2025-12-29
 tags: ["clang", "clang-tools-extra", "clang-doc", "extractapi"]
 ---
 
